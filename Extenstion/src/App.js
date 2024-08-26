@@ -196,7 +196,7 @@ const CompleteListHeader = ({ activeTab, setActiveTab, completeData }) => {
 }
 const fetchVideosList = async (playlistId) => {
   console.log('vidlist');
-  const API_KEY = 'AIzaSyCMm7TQGjXtXj7l-NVaB2Vf3HQLTLL0Z7s';
+  const API_KEY = process.env.YOUTUBE_DATA_API;
   const url = `https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&playlistId=${playlistId}&maxResults=50&key=${API_KEY}`;
 
   try {
