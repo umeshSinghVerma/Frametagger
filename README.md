@@ -34,9 +34,8 @@ With FrameTagger, studying and reviewing video content becomes effortless and mo
 1. Download the **FrameTagger** Chrome extension from [this link](https://chromewebstore.google.com/detail/frametagger/ppogfckcfolngoiadhmgflfndgmaijph).
 2. Pin the extension to your Chrome toolbar for easy access.
 <p align="center">
-    <img style="text-align: center" src="https://raw.githubusercontent.com/umeshSinghVerma/Youtube-Notes/refs/heads/main/Assets/frametagger-pin.png" alt="pin image" height="500" >
- </p>
-3. Check out more on [Frametagger](https://frametagger.com)
+    <img style="text-align: center" src="https://raw.githubusercontent.com/umeshSinghVerma/Youtube-Notes/main/Assets/frametagger-pin.png" alt="pin image" height="500">
+</p>
 
 ---
 
