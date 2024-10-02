@@ -83,15 +83,15 @@ FrameTagger is open-source and welcomes contributions, especially during **Hackt
 1. Fork the repository.
 2. Clone your fork and make your changes.
 3. Submit a pull request (PR) with a detailed description of your contribution.
+4. Make sure to check out the **Contribution Guidelines** [here](https://github.com/umeshSinghVerma/Frametagger/blob/main/CONTRIBUTION.md).
 
 ### Issues
-Check the [issues page](#) for feature requests or bugs to work on.
+Check the [issues page](https://github.com/umeshSinghVerma/Frametagger/issues) for feature requests or bugs to work on.
 
 ---
 
-## License 📜
-
-This project is licensed under the MIT License - see the [LICENSE](#) file for details.
+### 🎉 Win Exciting Rewards! 🎁
+Contribute to this repository and stand a chance to win exciting rewards! Your valuable contributions can make a big impact, and you might just get recognized with some awesome perks along the way. Start contributing now and be a part of the FrameTagger revolution!
 
 ---
 
