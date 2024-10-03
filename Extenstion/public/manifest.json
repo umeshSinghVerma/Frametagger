@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "version": "2.1",
-  "name": "Youtube-Notes",
+  "name": "Frametagger",
   "permissions": [
     "activeTab",
     "storage",
@@ -16,7 +16,7 @@
     "48": "logo192.png"
   },
   "action": {
-    "default_title": "Youtube-Notes",
+    "default_title": "Frametagger",
     "default_popup": "index.html"
   },
   "background": {

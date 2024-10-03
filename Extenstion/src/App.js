@@ -96,7 +96,7 @@ function MYDocument({ videoData }) {
               style={{ height: "20px", bottom: "3px", right: "0px", position: "absolute" }}
               src="/logo192.png"
             />
-            <Link target="_blank" href="https://Youtube-Notes.com" style={{ height: "20px", bottom: "0", right: "30px", position: "absolute" }}>Created Using Youtube-Notes</Link>
+            <Link target="_blank" href="https://frametagger.com" style={{ height: "20px", bottom: "0", right: "30px", position: "absolute" }}>Created Using Frametagger</Link>
           </View>
         </Page>
       </Document>
@@ -140,7 +140,7 @@ function CompleteListDocument({ completeData }) {
                 style={{ height: "20px", bottom: "3px", right: "0px", position: "absolute" }}
                 src="/logo192.png"
               />
-              <Link target="_blank" href="https://Youtube-Notes.com" style={{ height: "20px", bottom: "0", right: "30px", position: "absolute" }}>Created Using Youtube-Notes</Link>
+              <Link target="_blank" href="https://frametagger.com" style={{ height: "20px", bottom: "0", right: "30px", position: "absolute" }}>Created Using Frametagger</Link>
             </View>
           </Page>
         )
@@ -151,7 +151,7 @@ function CompleteListDocument({ completeData }) {
   }
 }
 const Header = ({ activeTab, setActiveTab, videoData, isList }) => {
-    const title = videoData?.heading||"Youtube-Notes";
+    const title = videoData?.heading||"Frametagger";
     return (
       <div className='bg-[#323639] flex items-center justify-between'>
         <div className='flex  items-center'>
