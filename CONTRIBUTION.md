@@ -56,8 +56,6 @@ If you wish to contribute to this project:
 
 ## How to Run and Test the Chrome Extension Locally
 
-## How to Run and Test the Chrome Extension Locally
-
 ### 1. Build the Extension
 
 To build the Chrome extension and prepare it for use in your browser, follow these steps:
