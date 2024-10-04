@@ -20,7 +20,6 @@ function App() {
   });
 
   useEffect(() => {
-    // console.log(process.env.REACT_YOUTUBE_DATA_API_KEY);
     getVideoData();
   }, []);
 

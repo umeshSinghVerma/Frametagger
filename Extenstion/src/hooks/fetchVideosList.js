@@ -3,7 +3,7 @@ import axios from 'axios';
 export const fetchVideosList = async (playlistId) => {
     console.log('vidlist');
     // const API_KEY = process.env.YOUTUBE_DATA_API;
-    const API_KEY = "jhbsdfvjhbjksbdfvjhbsjkdfvhbsdfv"; // this is random api text
+    const API_KEY = "AIzaSyDsdVPLWRcZQEwa645txoaZWfP0avVj56o"; // Sample Api Key Valid till Hactoberfest
     console.log(API_KEY);
     const url = `https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&playlistId=${playlistId}&maxResults=50&key=${API_KEY}`;
 
