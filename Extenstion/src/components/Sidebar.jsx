@@ -28,15 +28,15 @@ const Sidebar = ({activeTab, setActiveTab, isList }) => {
         className={`fixed flex flex-col p-3 top-0 left-0 z-50 h-full w-64 bg-[#323639] shadow-lg transform transition-transform ease-in-out duration-300 ${isOpen ? 'translate-x-0' : '-translate-x-full'
           }`}
       >
-        <a href='https://Frametagger.com' className='flex items-center gap-2 border-b pb-2 border-[#80808056]'>
+        <a href='https://Frametagger.com' rel='noreferrer' className='flex items-center gap-2 border-b pb-2 border-[#80808056]'>
           <img src="/logo192.png" alt="" width={40} />
           <p style={{fontFamily:"Oswald"}} className='text-white text-xl'>Frametagger</p>
         </a>
         <div className='text-white my-4 flex flex-col gap-y-4 font-semibold'>
-          <button className={activeTab=="pdf" && 'bg-[#80808059] p-3 rounded-md'} onClick={() => setActiveTab("pdf")}>
+          <button className={activeTab==="pdf" && 'bg-[#80808059] p-3 rounded-md'} onClick={() => setActiveTab("pdf")}>
             Normal View
           </button>
-          {isList && <button  className={activeTab=="list" && 'bg-[#80808059] p-3 rounded-md'} onClick={() => setActiveTab("list")}>
+          {isList && <button  className={activeTab==="list" && 'bg-[#80808059] p-3 rounded-md'} onClick={() => setActiveTab("list")}>
             List View
           </button>}
         </div>
