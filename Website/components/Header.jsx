@@ -16,7 +16,7 @@ const Header = () => {
                 </div>
             </div>
             <div className="bg-[#ededed] px-10 py-5 rounded-[20px] font-semibold flex items-center justify-center my-2 md:my-0 h-12">
-                <Link href="#">Go to the app</Link>
+                <Link href="https://chromewebstore.google.com/detail/Youtube-Notes/ppogfckcfolngoiadhmgflfndgmaijph">Go to the app</Link>
             </div>
         </div>
     )
