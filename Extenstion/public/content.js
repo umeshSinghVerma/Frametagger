@@ -434,15 +434,18 @@ async function keyBindings(e, currentVideo) {
 }
 
 
-(() => {
-    chrome.runtime.onMessage.addListener((obj, sender, response) => {
-        const { type, value, videoId } = obj;
-        if (type === "NEW") {
-            addCaptureButton();
-            document.removeEventListener('keydown', handleKeyDown);
-            document.addEventListener('keydown', handleKeyDown);
-        }
-    });
-    document.addEventListener('keydown', handleKeyDown);
+function addFunctionalities() {
     addCaptureButton();
-})();
+    document.removeEventListener('keydown', handleKeyDown);
+    document.addEventListener('keydown', handleKeyDown);
+}
+
+const interval = setInterval(() => {
+    console.log('I am running on clicked');
+    let captureButton = document.getElementById('Frametagger-capture');
+    if (!captureButton) {
+        addFunctionalities();
+    } else {
+        clearInterval(interval);
+    }
+}, 1000)

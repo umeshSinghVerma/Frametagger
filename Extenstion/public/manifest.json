@@ -28,7 +28,7 @@
         "*://www.youtube.com/*"
       ],
       "js": [
-        "updateContent.js"
+        "content.js"
       ],
       "css": [
         "contentcss.css"
