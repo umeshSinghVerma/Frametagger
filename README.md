@@ -99,8 +99,6 @@ Contribute to this repository and stand a chance to win exciting rewards! Your v
 
 For questions or feedback, feel free to reach out:
 
-- **Email**: usv0308@gmail.com
-- **LinkedIn**: [Umesh Singh Verma](https://www.linkedin.com/in/usv0308)
-- **GitHub**: [umeshSinghVerma](https://github.com/umeshSinghVerma)
+- **Owner**: Venkat.vegah@gmail.com
 
 ---
